@@ -1,0 +1,297 @@
+/* =====================================================================
+   Kotak Ajaib (Shikaku) — Gaya Visual Ramah Anak
+   Palet cerah, sudut membulat, animasi lembut.
+   ===================================================================== */
+
+/* ---------- Variabel warna ---------- */
+:root {
+  --bg1: #a8edea;
+  --bg2: #fed6e3;
+  --ink: #3b3054;
+  --panel: #ffffff;
+  --grid-line: #d9d0ef;
+  --cell: #fbf8ff;
+  --cell-hover: #efe8ff;
+  --accent: #7c5cff;
+  --accent-dark: #5b3ee6;
+  --good: #37c978;
+  --warn: #ff9f43;
+  --danger: #ff5d73;
+  --clue: #2a2140;
+  --shadow: 0 8px 24px rgba(90, 60, 160, 0.18);
+  --radius: 18px;
+}
+
+/* ---------- Dasar ---------- */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Baloo 2", "Comic Sans MS", "Segoe UI", system-ui, sans-serif;
+  color: var(--ink);
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ---------- Dekorasi melayang ---------- */
+.floaties {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+.floaty {
+  position: absolute;
+  font-size: 2.4rem;
+  opacity: 0.55;
+  animation: float 12s ease-in-out infinite;
+}
+.floaty:nth-child(1) { left: 6%;  top: 12%; animation-delay: 0s; }
+.floaty:nth-child(2) { left: 88%; top: 18%; animation-delay: 1.5s; }
+.floaty:nth-child(3) { left: 12%; top: 78%; animation-delay: 3s; }
+.floaty:nth-child(4) { left: 80%; top: 70%; animation-delay: 2s; }
+.floaty:nth-child(5) { left: 48%; top: 8%;  animation-delay: 4s; }
+.floaty:nth-child(6) { left: 70%; top: 45%; animation-delay: 5s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-6deg); }
+  50%      { transform: translateY(-22px) rotate(6deg); }
+}
+
+/* ---------- Kartu aplikasi ---------- */
+.app {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 620px;
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(6px);
+  border-radius: 28px;
+  padding: 22px;
+  box-shadow: var(--shadow);
+}
+
+/* ---------- Judul ---------- */
+.app__header { text-align: center; margin-bottom: 14px; }
+.title {
+  margin: 0;
+  font-size: 2.2rem;
+  color: var(--accent-dark);
+  text-shadow: 2px 2px 0 #fff, 4px 4px 0 rgba(124, 92, 255, 0.25);
+}
+.subtitle { margin: 4px 0 0; font-size: 1rem; color: #6b5f88; }
+
+/* ---------- Kontrol ---------- */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.controls__group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.controls__label { font-weight: 700; color: #6b5f88; }
+
+.btn {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.12);
+  transition: transform 0.08s ease, box-shadow 0.08s ease, filter 0.15s ease;
+}
+.btn:hover { filter: brightness(1.05); }
+.btn:active { transform: translateY(3px); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12); }
+
+.btn--primary { background: var(--accent); }
+.btn--warn    { background: var(--warn); }
+.btn--good    { background: var(--good); }
+.btn--hint    { background: #4dabf7; }
+.btn--select {
+  background: #fff;
+  color: var(--ink);
+  border: 2px solid var(--grid-line);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 8px 12px;
+}
+
+/* ---------- Papan ---------- */
+.board-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.board {
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  background: #efe9ff;
+  border-radius: var(--radius);
+  box-shadow: inset 0 0 0 4px #fff, var(--shadow);
+  touch-action: none; /* penting agar drag di layar sentuh tidak menggeser halaman */
+}
+
+/* ---------- Sel ---------- */
+.cell {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--cell);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--clue);
+  box-shadow: inset 0 0 0 2px var(--grid-line);
+  transition: background 0.12s ease, transform 0.08s ease;
+  cursor: pointer;
+}
+.cell:hover { background: var(--cell-hover); }
+
+/* Sel yang berisi angka petunjuk */
+.cell--clue {
+  background: #fff8e1;
+  box-shadow: inset 0 0 0 3px #ffd54a;
+}
+.cell__num {
+  pointer-events: none;
+  z-index: 3;
+  text-shadow: 0 1px 0 #fff;
+}
+
+/* Sorotan sementara saat menarik */
+.cell--preview {
+  outline: 3px dashed var(--accent);
+  outline-offset: -4px;
+  background: #e3d9ff;
+  z-index: 2;
+}
+.cell--preview-bad {
+  outline: 3px dashed var(--danger);
+  outline-offset: -4px;
+  background: #ffe0e6;
+}
+
+/* ---------- Animasi terima / tolak ---------- */
+@keyframes pop {
+  0%   { transform: scale(0.7); }
+  60%  { transform: scale(1.12); }
+  100% { transform: scale(1); }
+}
+.cell--accepted { animation: pop 0.28s ease; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(-4px); }
+  75%      { transform: translateX(4px); }
+}
+.cell--rejected { animation: shake 0.3s ease; }
+
+/* ---------- Pesan ---------- */
+.message {
+  min-height: 30px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  border-radius: 12px;
+  transition: opacity 0.2s ease;
+}
+.message--good  { color: var(--good); }
+.message--bad   { color: var(--danger); }
+.message--info  { color: var(--accent-dark); }
+
+/* ---------- Bilah kemajuan ---------- */
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 4px 4px;
+}
+.progress__bar {
+  flex: 1;
+  height: 16px;
+  background: #e6def8;
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+.progress__fill {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #7c5cff, #37c978);
+  border-radius: 999px;
+  transition: width 0.35s ease;
+}
+.progress__text { font-weight: 800; color: #6b5f88; min-width: 44px; text-align: right; }
+
+/* ---------- Cara bermain ---------- */
+.how { margin-top: 14px; }
+.how summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: var(--accent-dark);
+  padding: 8px;
+}
+.how ul { margin: 8px 0 0; padding-left: 22px; line-height: 1.6; color: #5a4f78; }
+
+/* ---------- Layar kemenangan ---------- */
+.win-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(60, 40, 110, 0.45);
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease;
+}
+.win-overlay[hidden] { display: none; }
+.win-card {
+  background: #fff;
+  border-radius: 26px;
+  padding: 32px 40px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  animation: pop 0.4s ease;
+}
+.win-card h2 { color: var(--accent-dark); margin: 6px 0; }
+.win-card p  { color: #6b5f88; }
+.win-emoji {
+  font-size: 4.5rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---------- Responsif ---------- */
+@media (max-width: 520px) {
+  .title { font-size: 1.7rem; }
+  .btn { padding: 9px 12px; font-size: 0.92rem; }
+  .cell { font-size: 1.1rem; }
+  .app { padding: 16px; }
+}
