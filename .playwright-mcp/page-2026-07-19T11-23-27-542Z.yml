@@ -1,0 +1,275 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "RemotIn RemotIn" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "RemotIn" [ref=e5]
+        - generic [ref=e6]: RemotIn
+      - navigation [ref=e7]:
+        - link "Cari Loker" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Kategori" [ref=e9] [cursor=pointer]:
+          - /url: /#kategori
+        - link "Tersimpan" [ref=e10] [cursor=pointer]:
+          - /url: /tersimpan
+        - link "+ Pasang Loker" [ref=e11] [cursor=pointer]:
+          - /url: /post-job
+        - generic [ref=e13]:
+          - link "Masuk" [ref=e14] [cursor=pointer]:
+            - /url: /masuk
+          - link "Daftar" [ref=e15] [cursor=pointer]:
+            - /url: /daftar
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: 21 loker remote aktif hari ini
+      - heading "Kerja dari rumah, tanpa drama macet jalanan." [level=1] [ref=e23]
+      - paragraph [ref=e24]: RemotIn mengurasi lowongan remote & WFH asli untuk talenta Indonesia — dari UI/UX hingga Virtual Assistant.
+      - textbox "Cari posisi atau nama perusahaan..." [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - button "Semua Kategori" [ref=e35]
+            - button "🗂️Admin & Virtual Assistant" [ref=e36]
+            - button "🎧Customer Service" [ref=e37]
+            - button "🎨Design" [ref=e38]
+            - button "💻Engineering" [ref=e39]
+            - button "📈Marketing" [ref=e40]
+          - generic [ref=e41]:
+            - combobox [ref=e42]:
+              - option "Semua Tipe" [selected]
+              - option "Full-time"
+              - option "Part-time"
+              - option "Contract"
+              - option "Freelance"
+            - combobox [ref=e43]:
+              - option "Remote & Hybrid" [selected]
+              - option "Full Remote"
+              - option "Hybrid"
+            - combobox [ref=e44]:
+              - option "Semua Gaji" [selected]
+              - option "Rp 5 juta+"
+              - option "Rp 10 juta+"
+              - option "Rp 15 juta+"
+              - option "Rp 20 juta+"
+            - combobox [ref=e45]:
+              - option "Terbaru" [selected]
+              - option "Gaji Tertinggi"
+            - generic [ref=e46]:
+              - strong [ref=e47]: "21"
+              - text: loker
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: 🔥 Hot
+            - button "Simpan simulation" [ref=e52]
+            - link "simulation simulation simulation Remote - Indonesia Full-time Rp 1.000.000 - Rp 5.000.000 4 jam lalu React Lihat Detail" [ref=e55] [cursor=pointer]:
+              - /url: /jobs/07c4370b-7a3d-4481-9566-66e3fa510ea8
+              - img "simulation" [ref=e56]
+              - generic [ref=e57]:
+                - heading "simulation" [level=3] [ref=e58]
+                - paragraph [ref=e59]: simulation
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Remote - Indonesia
+                  - generic [ref=e65]: Full-time
+                  - generic [ref=e69]: Rp 1.000.000 - Rp 5.000.000
+                  - generic [ref=e73]: 4 jam lalu
+                - generic [ref=e77]: React
+              - generic [ref=e79]: Lihat Detail
+          - generic [ref=e82]:
+            - button "Simpan Senior Software Engineer" [ref=e83]
+            - link [ref=e86] [cursor=pointer]:
+              - /url: /jobs/19328dfd-f1de-492d-8c2d-44057af41031
+              - img "Salve.Inno" [ref=e87]
+              - generic [ref=e88]:
+                - heading "Senior Software Engineer" [level=3] [ref=e89]
+                - paragraph [ref=e90]: Salve.Inno
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Remote
+                  - generic [ref=e96]: Contract
+                  - generic [ref=e100]: Kemarin
+              - generic [ref=e104]: Lihat Detail
+          - generic [ref=e107]:
+            - button "Simpan Backend Engineer (Java) — Makro PRO" [ref=e108]
+            - link [ref=e111] [cursor=pointer]:
+              - /url: /jobs/a9edb5bc-f231-41b6-a033-ceb3464c91a8
+              - img "Makro PRO" [ref=e112]
+              - generic [ref=e113]:
+                - heading "Backend Engineer (Java) — Makro PRO" [level=3] [ref=e114]
+                - paragraph [ref=e115]: Makro PRO
+                - generic [ref=e116]:
+                  - generic [ref=e117]: Indonesia
+                  - generic [ref=e121]: Full-time
+                  - generic [ref=e125]: Kemarin
+              - generic [ref=e129]: Lihat Detail
+          - generic [ref=e132]:
+            - button "Simpan Cloud Support Engineer" [ref=e133]
+            - link [ref=e136] [cursor=pointer]:
+              - /url: /jobs/cb57a4b0-540d-4830-b9fe-5702b953bc16
+              - img "Canonical" [ref=e137]
+              - generic [ref=e138]:
+                - heading "Cloud Support Engineer" [level=3] [ref=e139]
+                - paragraph [ref=e140]: Canonical
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Worldwide
+                  - generic [ref=e146]: Full-time
+                  - generic [ref=e150]: Kemarin
+              - generic [ref=e154]: Lihat Detail
+          - generic [ref=e157]:
+            - button "Simpan Account Manager — Enterprise Fintech" [ref=e158]
+            - link [ref=e161] [cursor=pointer]:
+              - /url: /jobs/75189f05-8cb0-4f28-8d82-6e7120a19ee9
+              - img "Paymentology" [ref=e162]
+              - generic [ref=e163]:
+                - heading "Account Manager — Enterprise Fintech" [level=3] [ref=e164]
+                - paragraph [ref=e165]: Paymentology
+                - generic [ref=e166]:
+                  - generic [ref=e167]: APAC
+                  - generic [ref=e171]: Full-time
+                  - generic [ref=e175]: Kemarin
+              - generic [ref=e179]: Lihat Detail
+          - generic [ref=e182]:
+            - button "Simpan VIP Account Manager" [ref=e183]
+            - link [ref=e186] [cursor=pointer]:
+              - /url: /jobs/dba688fc-cf9c-4ae0-8c41-303c265f2fd7
+              - img "Binance" [ref=e187]
+              - generic [ref=e188]:
+                - heading "VIP Account Manager" [level=3] [ref=e189]
+                - paragraph [ref=e190]: Binance
+                - generic [ref=e191]:
+                  - generic [ref=e192]: Malaysia
+                  - generic [ref=e196]: Full-time
+                  - generic [ref=e200]: Kemarin
+              - generic [ref=e204]: Lihat Detail
+          - generic [ref=e207]:
+            - button "Simpan Virtual Assistant" [ref=e208]
+            - link [ref=e211] [cursor=pointer]:
+              - /url: /jobs/841146f4-2922-4a44-a37b-cbc31fb79db1
+              - img "Magic, Inc." [ref=e212]
+              - generic [ref=e213]:
+                - heading "Virtual Assistant" [level=3] [ref=e214]
+                - paragraph [ref=e215]: Magic, Inc.
+                - generic [ref=e216]:
+                  - generic [ref=e217]: Philippines
+                  - generic [ref=e221]: Full-time
+                  - generic [ref=e225]: Kemarin
+              - generic [ref=e229]: Lihat Detail
+          - generic [ref=e232]:
+            - button "Simpan Virtual Assistant" [ref=e233]
+            - link [ref=e236] [cursor=pointer]:
+              - /url: /jobs/58bb314a-3f56-4cdc-885b-f89ea5e82cd2
+              - img "WAGMI Solutions" [ref=e237]
+              - generic [ref=e238]:
+                - heading "Virtual Assistant" [level=3] [ref=e239]
+                - paragraph [ref=e240]: WAGMI Solutions
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Philippines
+                  - generic [ref=e246]: Full-time
+                  - generic [ref=e250]: Kemarin
+              - generic [ref=e254]: Lihat Detail
+          - generic [ref=e257]:
+            - button "Simpan Executive Assistant (Work From Home)" [ref=e258]
+            - link [ref=e261] [cursor=pointer]:
+              - /url: /jobs/36a2c397-ae30-41b3-b995-4ed5912568f0
+              - img "Aux" [ref=e262]
+              - generic [ref=e263]:
+                - heading "Executive Assistant (Work From Home)" [level=3] [ref=e264]
+                - paragraph [ref=e265]: Aux
+                - generic [ref=e266]:
+                  - generic [ref=e267]: Philippines
+                  - generic [ref=e271]: Full-time
+                  - generic [ref=e275]: Kemarin
+              - generic [ref=e279]: Lihat Detail
+          - generic [ref=e282]:
+            - button "Simpan Virtual Executive Assistant" [ref=e283]
+            - link [ref=e286] [cursor=pointer]:
+              - /url: /jobs/351ee119-a447-429f-94d0-4c8f498b97d2
+              - img "RAY AI" [ref=e287]
+              - generic [ref=e288]:
+                - heading "Virtual Executive Assistant" [level=3] [ref=e289]
+                - paragraph [ref=e290]: RAY AI
+                - generic [ref=e291]:
+                  - generic [ref=e292]: Philippines
+                  - generic [ref=e296]: Full-time
+                  - generic [ref=e300]: Kemarin
+              - generic [ref=e304]: Lihat Detail
+        - button "Muat Lebih Banyak (11 lagi)" [ref=e308]
+      - complementary [ref=e309]:
+        - generic [ref=e310]:
+          - heading "Dapat Loker Baru Lewat Email" [level=3] [ref=e315]
+          - paragraph [ref=e316]: Ringkasan loker remote terbaru, langsung ke inbox kamu.
+          - generic [ref=e317]:
+            - textbox "email@kamu.com" [ref=e318]
+            - button "Daftar Gratis" [ref=e319]
+        - generic [ref=e320]:
+          - heading "RemotIn dalam Angka" [level=3] [ref=e325]
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - term [ref=e328]: Loker Aktif
+              - definition [ref=e329]: "21"
+            - generic [ref=e330]:
+              - term [ref=e331]: Perusahaan
+              - definition [ref=e332]: "21"
+        - generic [ref=e333]:
+          - heading "Punya Lowongan Remote?" [level=3] [ref=e334]
+          - paragraph [ref=e335]: Pasang gratis dan jangkau talenta remote terbaik Indonesia.
+          - link "Pasang Loker Sekarang" [ref=e336] [cursor=pointer]:
+            - /url: /post-job
+  - contentinfo [ref=e337]:
+    - generic [ref=e338]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - img "RemotIn" [ref=e343]
+            - generic [ref=e344]: RemotIn
+          - paragraph [ref=e345]: Portal kurasi lowongan remote & WFH terpercaya untuk talenta Indonesia. Kerja dari mana saja, tanpa drama macet.
+          - generic [ref=e346]:
+            - link "Instagram" [ref=e347] [cursor=pointer]:
+              - /url: "#"
+            - link "LinkedIn" [ref=e350] [cursor=pointer]:
+              - /url: "#"
+            - link "Email" [ref=e353] [cursor=pointer]:
+              - /url: mailto:hello@remotinjobs.com
+        - generic [ref=e357]:
+          - heading "Navigasi Cepat" [level=3] [ref=e358]
+          - list [ref=e359]:
+            - listitem [ref=e360]:
+              - link "Cari Loker" [ref=e361] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e362]:
+              - link "Kategori" [ref=e363] [cursor=pointer]:
+                - /url: /#kategori
+            - listitem [ref=e364]:
+              - link "Pasang Loker" [ref=e365] [cursor=pointer]:
+                - /url: /post-job
+            - listitem [ref=e366]:
+              - link "Tentang Kami" [ref=e367] [cursor=pointer]:
+                - /url: /tentang
+            - listitem [ref=e368]:
+              - link "Kontak" [ref=e369] [cursor=pointer]:
+                - /url: /kontak
+        - generic [ref=e370]:
+          - heading "Kategori Populer" [level=3] [ref=e371]
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - link "Engineering" [ref=e374] [cursor=pointer]:
+                - /url: /kategori/engineering
+            - listitem [ref=e375]:
+              - link "Design" [ref=e376] [cursor=pointer]:
+                - /url: /kategori/design
+            - listitem [ref=e377]:
+              - link "Marketing" [ref=e378] [cursor=pointer]:
+                - /url: /kategori/marketing
+            - listitem [ref=e379]:
+              - link "Admin & Virtual Assistant" [ref=e380] [cursor=pointer]:
+                - /url: /kategori/admin-va
+            - listitem [ref=e381]:
+              - link "Customer Service" [ref=e382] [cursor=pointer]:
+                - /url: /kategori/customer-service
+      - generic [ref=e383]:
+        - paragraph [ref=e384]: © 2026 RemotIn. Seluruh hak cipta dilindungi.
+        - generic [ref=e385]:
+          - link "Kebijakan Privasi" [ref=e386] [cursor=pointer]:
+            - /url: /privasi
+          - generic [ref=e387]: ·
+          - link "Syarat & Ketentuan" [ref=e388] [cursor=pointer]:
+            - /url: /syarat-ketentuan

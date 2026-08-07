@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: BlockZ
+    - generic [ref=e7]: 143 blok dibangun
+  - generic [ref=e8]: Tekan Esc untuk jeda
+  - generic:
+    - generic:
+      - generic: "1"
+      - generic: Rumput
+    - generic:
+      - generic: "2"
+      - generic: Tanah
+    - generic:
+      - generic: "3"
+      - generic: Batu
+    - generic:
+      - generic: "4"
+      - generic: Kayu
+    - generic:
+      - generic: "5"
+      - generic: Bata
+    - generic:
+      - generic: "6"
+      - generic: Pasir
+    - generic:
+      - generic: "7"
+      - generic: Air
+    - generic:
+      - generic: "8"
+      - generic: Neon
+  - generic [ref=e15]:
+    - heading "BlockZ" [level=1] [ref=e18]
+    - paragraph [ref=e19]: Bangun dunia kubusmu sendiri — jelajah, susun, hancurkan.
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: W
+          - generic [ref=e24]: A
+          - generic [ref=e25]: S
+          - generic [ref=e26]: D
+        - generic [ref=e27]: Gerak
+      - generic [ref=e28]:
+        - generic [ref=e29]: Space
+        - generic [ref=e31]: Lompat
+      - generic [ref=e32]:
+        - generic [ref=e33]: Kiri
+        - generic [ref=e35]: Hancurkan blok
+      - generic [ref=e36]:
+        - generic [ref=e37]: Kanan
+        - generic [ref=e39]: Pasang blok
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]: "1"
+          - generic [ref=e43]: –
+          - generic [ref=e44]: "8"
+        - generic [ref=e45]: Pilih blok
+      - generic [ref=e46]:
+        - generic [ref=e47]: Mouse
+        - generic [ref=e49]: Lihat sekeliling
+    - button "Main Sekarang" [ref=e50] [cursor=pointer]
+    - paragraph [ref=e53]: "Desktop: klik untuk mengunci mouse • Ponsel: gunakan tombol layar"

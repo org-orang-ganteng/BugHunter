@@ -1,0 +1,298 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-SG
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Go to Google Home" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQPAgI
+        - generic [ref=f2e21]:
+          - generic [ref=f2e22]:
+            - combobox "Search" [ref=f2e25]: unplugged coding activities toddlers preschool sequence pattern cause and effect computational thinking unplugged coding activities toddlers preschool sequence pattern cause and effect computational thinking
+            - generic [ref=f2e26]:
+              - button "Clear" [ref=f2e28] [cursor=pointer]
+              - generic [ref=f2e33]:
+                - button "Search by voice" [ref=f2e34] [cursor=pointer]
+                - button "Search by image" [ref=f2e37] [cursor=pointer]
+          - button "Search" [ref=f2e40] [cursor=pointer]
+    - generic [ref=f2e45]:
+      - button "Settings" [ref=f2e47] [cursor=pointer]
+      - button "Share" [ref=f2e53] [cursor=pointer]
+      - generic [ref=f2e59]:
+        - button "Google apps" [ref=f2e61] [cursor=pointer]
+        - link "Sign in" [ref=f2e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dunplugged%2Bcoding%2Bactivities%2Btoddlers%2Bpreschool%2Bsequence%2Bpattern%2Bcause%2Band%2Beffect%2Bcomputational%2Bthinking%26sei%3DeKt1aomaM_i1wcsP646KgAE&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e68]:
+    - navigation [ref=f2e74]:
+      - generic [ref=f2e80]:
+        - list [ref=f2e81]:
+          - listitem [ref=f2e82]:
+            - link "All" [disabled] [ref=f2e83]
+          - listitem [ref=f2e86]:
+            - link "Images" [ref=f2e87] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sa=X&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQtKgLegQIFxAB
+          - listitem [ref=f2e90]:
+            - link "Short videos" [ref=f2e91] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sa=X&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQs6gLegQIGBAB
+          - listitem [ref=f2e94]:
+            - link "Videos" [ref=f2e95] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sa=X&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQtKgLegQIFhAB
+          - listitem [ref=f2e98]:
+            - link "Forums" [ref=f2e99] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sa=X&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQs6gLegQIFRAB
+          - listitem [ref=f2e102]:
+            - link "Shopping" [ref=f2e103] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&ved=1t:220175&ictx=111
+          - listitem [ref=f2e106]:
+            - link "News" [ref=f2e107] [cursor=pointer]:
+              - /url: /search?sca_esv=4055421c27a6c95c&q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLzR4RIindJxFrmQWQ1WCYgKTaMA9EF8msaoFamZnSZqg13uZsPn2bt58v-dJ4hTlfMp0He7Bh6_-j-66sFUoJl3zE-avj0_dqXjcEW7oQlL575RUf-_Mdw3CmOw_vTkP2aqgmjiqhR2KyszaClgkiZr6TTwjQ&sa=X&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ0pQJegQIFBAB
+          - listitem [ref=f2e110]:
+            - button [ref=f2e111] [cursor=pointer]:
+              - generic "More filters" [ref=f2e112]: More
+        - button "Tools" [ref=f2e119] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e126]
+    - main [ref=f2e141]:
+      - generic [ref=f2e145]:
+        - generic [ref=f2e148]:
+          - heading "Web results" [level=2] [ref=f2e149]
+          - generic [ref=f2e150]:
+            - generic [ref=f2e153]:
+              - 'link "Unplugged coding in early childhood: Problem-solving ... Taylor & Francis Online https://www.tandfonline.com › ... › Latest Articles" [ref=f2e155] [cursor=pointer]':
+                - /url: https://www.tandfonline.com/doi/full/10.1080/00220671.2026.2667931
+                - 'heading "Unplugged coding in early childhood: Problem-solving ..." [level=3] [ref=f2e156]'
+                - generic [ref=f2e162]:
+                  - generic [ref=f2e163]: Taylor & Francis Online
+                  - generic [ref=f2e165]: https://www.tandfonline.com › ... › Latest Articles
+              - button "About this result" [ref=f2e169] [cursor=pointer]
+            - generic [ref=f2e175]:
+              - generic [ref=f2e176]: by T Abanoz · 2026 · Cited by 1 —
+              - generic [ref=f2e177]:
+                - text: Investigation of the
+                - emphasis [ref=f2e178]: effects
+                - text: of
+                - emphasis [ref=f2e179]: unplugged coding activities
+                - text: developed for
+                - emphasis [ref=f2e180]: preschool
+                - text: on motivation,
+                - emphasis [ref=f2e181]: computational thinking
+                - text: and problem-solving skills.
+              - link "Read more" [ref=f2e182] [cursor=pointer]:
+                - /url: https://www.tandfonline.com/doi/full/10.1080/00220671.2026.2667931#:~:text=Investigation%20of%20the%20effects%20of,computational%20thinking%20and%20problem%2Dsolving%20skills.
+        - generic [ref=f2e186]:
+          - generic [ref=f2e189]:
+            - link "Investigation of the effects of unplugged coding activities ... Hacettepe Üniversitesi https://yunus.hacettepe.edu.tr › html › academic" [ref=f2e191] [cursor=pointer]:
+              - /url: https://yunus.hacettepe.edu.tr/~htuzun/html/academic/2025-Sayginer-Tuzun.pdf
+              - heading "Investigation of the effects of unplugged coding activities ..." [level=3] [ref=f2e192]
+              - generic [ref=f2e201]:
+                - generic [ref=f2e202]: Hacettepe Üniversitesi
+                - generic [ref=f2e204]: https://yunus.hacettepe.edu.tr › html › academic
+            - generic [ref=f2e206]: PDF
+            - button "About this result" [ref=f2e209] [cursor=pointer]
+          - generic [ref=f2e214]:
+            - generic [ref=f2e215]:
+              - generic [ref=f2e216]: by Ş Saygıner · 2025 · Cited by 6 —
+              - generic [ref=f2e217]:
+                - text: The aim of this research was to explore the effects of unplugged coding activities on preschoolers'
+                - emphasis [ref=f2e218]: motivation, computational thinking
+                - text: and ...
+              - link "Read more" [ref=f2e219] [cursor=pointer]:
+                - /url: https://yunus.hacettepe.edu.tr/~htuzun/html/academic/2025-Sayginer-Tuzun.pdf#:~:text=The%20aim%20of%20this%20research,computational%20thinking%20and%20problem%2Dsolving%20skills.
+            - generic [ref=f2e220]: 29 pages
+        - generic [ref=f2e224]:
+          - generic [ref=f2e227]:
+            - link "Educational robotics or unplugged coding activities in ... ScienceDirect.com https://www.sciencedirect.com › article › abs › pii" [ref=f2e229] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/abs/pii/S1871187124001147
+              - heading "Educational robotics or unplugged coding activities in ..." [level=3] [ref=f2e230]
+              - generic [ref=f2e236]:
+                - generic [ref=f2e237]: ScienceDirect.com
+                - generic [ref=f2e239]: https://www.sciencedirect.com › article › abs › pii
+            - button "About this result" [ref=f2e243] [cursor=pointer]
+          - generic [ref=f2e249]:
+            - generic [ref=f2e250]: by B Zurnacı · 2024 · Cited by 49 —
+            - generic [ref=f2e251]:
+              - text: The findings showed that
+              - emphasis [ref=f2e252]: unplugged coding activities
+              - text: gave
+              - emphasis [ref=f2e253]: children
+              - text: the highest understanding of
+              - emphasis [ref=f2e254]: computational thinking
+              - text: concepts. Previous studies have reported ...
+            - link "Read more" [ref=f2e255] [cursor=pointer]:
+              - /url: https://www.sciencedirect.com/science/article/abs/pii/S1871187124001147#:~:text=The%20findings%20showed%20that%20unplugged,concepts.%20Previous%20studies%20have%20reported
+        - generic [ref=f2e259]:
+          - generic [ref=f2e262]:
+            - link "incorporating-unplugged-computational-thinking-teaching- ... Computers and Children https://www.computersandchildren.com › download" [ref=f2e264] [cursor=pointer]:
+              - /url: https://www.computersandchildren.com/download/incorporating-unplugged-computational-thinking-teaching-into-preschool-theme-based-curriculum-17845.pdf
+              - heading "incorporating-unplugged-computational-thinking-teaching- ..." [level=3] [ref=f2e265]
+              - generic [ref=f2e271]:
+                - generic [ref=f2e272]: Computers and Children
+                - generic [ref=f2e274]: https://www.computersandchildren.com › download
+            - generic [ref=f2e276]: PDF
+            - button "About this result" [ref=f2e279] [cursor=pointer]
+          - generic [ref=f2e284]:
+            - generic [ref=f2e285]:
+              - generic [ref=f2e286]: by YL Chen · 2026 —
+              - generic [ref=f2e287]:
+                - text: This research aims to investigate the effective integration of
+                - emphasis [ref=f2e288]: unplugged computational thinking
+                - text: (CT) into a project- based curriculum for
+                - emphasis [ref=f2e289]: preschool
+                - text: ...
+              - link "Read more" [ref=f2e290] [cursor=pointer]:
+                - /url: https://www.computersandchildren.com/download/incorporating-unplugged-computational-thinking-teaching-into-preschool-theme-based-curriculum-17845.pdf#:~:text=This%20research%20aims%20to%20investigate,interplay%20between%20thematic%20content%20and
+            - generic [ref=f2e291]: 9 pages
+        - generic [ref=f2e295]:
+          - generic [ref=f2e298]:
+            - link "Designing unplugged activities for learning computational ... ResearchGate https://www.researchgate.net › publication › links" [ref=f2e300] [cursor=pointer]:
+              - /url: https://www.researchgate.net/profile/Jari-Laru/publication/333783542_Designing_unplugged_activities_for_learning_computational_thinking_in_the_context_K-2_pupils'_afterschool_coding_club/links/5d03c2cd299bf12e7bde289e/Designing-unplugged-activities-for-learning-computational-thinking-in-the-context-K-2-pupils-afterschool-coding-club.pdf
+              - heading "Designing unplugged activities for learning computational ..." [level=3] [ref=f2e301]
+              - generic [ref=f2e307]:
+                - generic [ref=f2e308]: ResearchGate
+                - generic [ref=f2e310]: https://www.researchgate.net › publication › links
+            - generic [ref=f2e312]: PDF
+            - button "About this result" [ref=f2e315] [cursor=pointer]
+          - generic [ref=f2e321]:
+            - generic [ref=f2e322]:
+              - text: This paper presents a study of developing
+              - emphasis [ref=f2e323]: computational thinking
+              - text: (CT) practices by designing and testing
+              - emphasis [ref=f2e324]: unplugged
+              - text: and plugged
+              - emphasis [ref=f2e325]: coding
+              - text: materials for 1st and 2nd.
+            - link "Read more" [ref=f2e326] [cursor=pointer]:
+              - /url: https://www.researchgate.net/profile/Jari-Laru/publication/333783542_Designing_unplugged_activities_for_learning_computational_thinking_in_the_context_K-2_pupils'_afterschool_coding_club/links/5d03c2cd299bf12e7bde289e/Designing-unplugged-activities-for-learning-computational-thinking-in-the-context-K-2-pupils-afterschool-coding-club.pdf#:~:text=This%20paper%20presents%20a%20study,materials%20for%201st%20and%202nd
+        - generic [ref=f2e330]:
+          - generic [ref=f2e333]:
+            - link "Early Coding and Algorithms for Preschoolers Funexpected Math https://funexpectedapps.com › blog-posts › early-coding..." [ref=f2e335] [cursor=pointer]:
+              - /url: https://funexpectedapps.com/blog-posts/early-coding-and-algorithms-for-preschoolers
+              - heading "Early Coding and Algorithms for Preschoolers" [level=3] [ref=f2e336]
+              - generic [ref=f2e342]:
+                - generic [ref=f2e343]: Funexpected Math
+                - generic [ref=f2e345]: https://funexpectedapps.com › blog-posts › early-coding...
+            - button "About this result" [ref=f2e349] [cursor=pointer]
+          - generic [ref=f2e355]:
+            - generic [ref=f2e356]: 22 Aug 2025 —
+            - generic [ref=f2e357]:
+              - text: Introduce
+              - emphasis [ref=f2e358]: preschoolers
+              - text: to
+              - emphasis [ref=f2e359]: coding
+              - text: through fun, screen-free
+              - emphasis [ref=f2e360]: activities
+              - text: that promote logical
+              - emphasis [ref=f2e361]: thinking
+              - text: ", problem-solving, and creativity."
+            - link "Read more" [ref=f2e362] [cursor=pointer]:
+              - /url: https://funexpectedapps.com/blog-posts/early-coding-and-algorithms-for-preschoolers#:~:text=Introduce%20preschoolers%20to%20coding%20through,logical%20thinking%2C%20problem%2Dsolving%2C%20and%20creativity.
+        - generic [ref=f2e366]:
+          - generic [ref=f2e369]:
+            - link "Unplugged Activities To Teach Computational Thinking Primo Toys https://primotoys.com › unplugged-activities-teach-com..." [ref=f2e371] [cursor=pointer]:
+              - /url: https://primotoys.com/unplugged-activities-teach-computational-thinking-part-4/
+              - heading "Unplugged Activities To Teach Computational Thinking" [level=3] [ref=f2e372]
+              - generic [ref=f2e378]:
+                - generic [ref=f2e379]: Primo Toys
+                - generic [ref=f2e381]: https://primotoys.com › unplugged-activities-teach-com...
+            - button "About this result" [ref=f2e385] [cursor=pointer]
+          - generic [ref=f2e392]:
+            - text: Once the
+            - emphasis [ref=f2e393]: children
+            - text: are happy with two or three block
+            - emphasis [ref=f2e394]: sequences
+            - text: using their
+            - emphasis [ref=f2e395]: coding
+            - text: toys, try the following
+            - emphasis [ref=f2e396]: activities
+            - text: . Find home Why? In Round 1, the child is ...
+        - generic [ref=f2e400]:
+          - generic [ref=f2e403]:
+            - link "The Power of Unplugged Activities | by Code Club Australia Medium · Code Club Australia 1 like · 2 years ago" [ref=f2e405] [cursor=pointer]:
+              - /url: https://medium.com/code-club-australia/the-power-of-unplugged-activities-c4d62fe3ac3c
+              - heading "The Power of Unplugged Activities | by Code Club Australia" [level=3] [ref=f2e406]
+              - generic [ref=f2e412]:
+                - generic [ref=f2e413]: Medium · Code Club Australia
+                - generic [ref=f2e415]: 1 like · 2 years ago
+            - button "About this result" [ref=f2e419] [cursor=pointer]
+          - generic [ref=f2e425]:
+            - generic [ref=f2e426]:
+              - text: It brings coding to life through games, activities, and physical movement. It's also a great way to enforce and practice
+              - emphasis [ref=f2e427]: computational
+              - text: thinking ...
+            - link "Read more" [ref=f2e428] [cursor=pointer]:
+              - /url: https://medium.com/code-club-australia/the-power-of-unplugged-activities-c4d62fe3ac3c#:~:text=It%20brings%20coding%20to%20life,parts%20of%20our%20everyday%20lives.
+        - generic [ref=f2e432]:
+          - generic [ref=f2e435]:
+            - link "Unplugged Activities in the PreK-3 Classroom CSPDWeek Sched https://hosted-files.sched.co › cstanjcspdweek2026" [ref=f2e437] [cursor=pointer]:
+              - /url: https://hosted-files.sched.co/cstanjcspdweek2026/f4/Unplugged%20Activities%20in%20the%20PreK-3%20Classroom%20CSPDWeek.pdf
+              - heading "Unplugged Activities in the PreK-3 Classroom CSPDWeek" [level=3] [ref=f2e438]
+              - generic [ref=f2e447]:
+                - generic [ref=f2e448]: Sched
+                - generic [ref=f2e450]: https://hosted-files.sched.co › cstanjcspdweek2026
+            - generic [ref=f2e452]: PDF
+            - button "About this result" [ref=f2e455] [cursor=pointer]
+          - generic [ref=f2e461]:
+            - generic [ref=f2e462]:
+              - text: Patterns • Computational. Thinking.
+              - emphasis [ref=f2e463]: Create repeating patterns and identify rules
+              - text: . Grid Paper. Pixel Art • Coordinates •. Data. Design pixel pictures or map.
+            - link "Read more" [ref=f2e464] [cursor=pointer]:
+              - /url: https://hosted-files.sched.co/cstanjcspdweek2026/f4/Unplugged%20Activities%20in%20the%20PreK-3%20Classroom%20CSPDWeek.pdf#:~:text=Patterns%20%E2%80%A2%20Computational,Design%20pixel%20pictures%20or%20map
+      - navigation [ref=f2e467]:
+        - heading "Page navigation" [level=1] [ref=f2e468]
+        - text: "1"
+        - link "Page 2" [ref=f2e471] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=10&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAE
+          - text: "2"
+        - link "Page 3" [ref=f2e473] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=20&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAG
+          - text: "3"
+        - link "Page 4" [ref=f2e475] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=30&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAI
+          - text: "4"
+        - link "Page 5" [ref=f2e477] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=40&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAK
+          - text: "5"
+        - link "Page 6" [ref=f2e479] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=50&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAM
+          - text: "6"
+        - link "Page 7" [ref=f2e481] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=60&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAO
+          - text: "7"
+        - link "Page 8" [ref=f2e483] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=70&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAQ
+          - text: "8"
+        - link "Page 9" [ref=f2e485] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=80&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAS
+          - text: "9"
+        - link "Page 10" [ref=f2e487] [cursor=pointer]:
+          - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=90&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8tMDegQIKBAU
+          - text: "10"
+        - heading [level=2] [ref=f2e489]:
+          - link "Next" [ref=f2e490] [cursor=pointer]:
+            - /url: /search?q=unplugged+coding+activities+toddlers+preschool+sequence+pattern+cause+and+effect+computational+thinking&sca_esv=4055421c27a6c95c&ei=eat1aqjXCMaRseMP-7yRCA&start=10&sa=N&sstk=AU9db-Df6hbkQPUrsRxk6Vn4jz_VAJySZgE1bWOIktLDhe8tv3KXbrU6r03sTrs6HN_qQGo_LhFNK_whXUqxRH9uZPrkSCuJScrM2w&ved=2ahUKEwjo9-T9n46WAxXGSGwGHXteBAEQ8NMDegQIKBAW
+      - navigation
+    - contentinfo [ref=f2e493]:
+      - heading "Footer links" [level=1] [ref=f2e494]
+      - generic [ref=f2e498]:
+        - generic [ref=f2e500]:
+          - text: Singapore
+          - generic [ref=f2e502]:
+            - button "Singapore - From your IP address" [ref=f2e504] [cursor=pointer]:
+              - generic [ref=f2e505]: Singapore
+              - generic [ref=f2e507]:
+                - text: "-"
+                - generic [ref=f2e508]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f2e510] [cursor=pointer]
+        - generic [ref=f2e513]:
+          - link "Help" [ref=f2e514] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-SG&fg=1
+          - link "Send feedback" [ref=f2e515] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f2e516] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-SG&fg=1
+          - link "Terms" [ref=f2e517] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-SG&fg=1

@@ -1,0 +1,360 @@
+/* Tampilan Matriks Excel & Filter Bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  background: #f7f6f2;
+  border: 1px solid var(--line);
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-size: 0.68rem;
+  font-weight: 800;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.filter-select {
+  background: #fff;
+  border: 1px solid rgba(23, 33, 43, 0.2);
+  padding: 6px 10px;
+  font-size: 0.75rem;
+  font-family: inherit;
+  color: var(--ink);
+  outline: none;
+}
+
+.filter-select:focus {
+  border-color: var(--blue);
+}
+
+.filter-search {
+  flex: 1;
+  min-width: 180px;
+}
+
+.reset-filter-btn {
+  background: var(--red);
+  color: #fff;
+  border: 0;
+  padding: 7px 12px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.reset-filter-btn:hover {
+  background: #cf1b23;
+}
+
+.active-tab {
+  background: var(--blue) !important;
+  color: #fff !important;
+  border-color: var(--blue) !important;
+}
+
+/* ── Toolbar buttons (redesigned) ──────────────────── */
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Segmented view toggle */
+.view-toggle {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: #eceae5;
+  border-radius: 12px;
+}
+.view-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 9px 14px;
+  border-radius: 9px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 180ms ease, background 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+.view-toggle-btn svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+.view-toggle-btn em {
+  font-style: normal;
+  font-weight: 600;
+  opacity: 0.65;
+  font-size: 0.72rem;
+}
+.view-toggle-btn:hover { color: var(--ink); }
+.view-toggle-btn.is-active {
+  background: #fff;
+  color: var(--blue);
+  box-shadow: 0 6px 16px -8px rgba(40, 60, 145, 0.55);
+}
+.view-toggle-btn.is-active em { opacity: 0.8; }
+.view-toggle-btn:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* Export Excel button */
+.xlsx-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #fff;
+  padding: 11px 18px;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #1f9d57 0%, #17823f 100%);
+  box-shadow: 0 12px 26px -12px rgba(23, 130, 63, 0.75);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms ease, filter 180ms ease;
+}
+.xlsx-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.xlsx-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 34px -14px rgba(23, 130, 63, 0.8);
+  filter: saturate(1.05);
+}
+.xlsx-button:active { transform: translateY(0); }
+.xlsx-button:hover .xlsx-icon { animation: xlsx-bounce 600ms ease; }
+.xlsx-button:focus-visible {
+  outline: 2px solid #17823f;
+  outline-offset: 2px;
+}
+@keyframes xlsx-bounce {
+  0%, 100% { transform: translateY(0); }
+  40% { transform: translateY(3px); }
+}
+
+@media (max-width: 600px) {
+  .toolbar-actions { width: 100%; }
+  .view-toggle { flex: 1; }
+  .view-toggle-btn { flex: 1; justify-content: center; }
+  .xlsx-button { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .xlsx-button:hover .xlsx-icon { animation: none; }
+}
+
+/* Excel Matrix Table Styling */
+.excel-matrix-scroll {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  max-height: 620px;
+  overflow: auto;
+  box-shadow: 0 18px 44px -34px rgba(23, 33, 43, 0.5);
+  background: #fff;
+}
+
+.excel-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 1800px;
+  width: 100%;
+  font-size: 0.7rem;
+  background: #fff;
+}
+
+.excel-table th,
+.excel-table td {
+  border-right: 1px solid #e7e5dd;
+  border-bottom: 1px solid #e7e5dd;
+  padding: 6px 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.excel-table thead th {
+  background: linear-gradient(180deg, #2d3f8f 0%, #22336f 100%);
+  color: #ffffff;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 0;
+}
+
+.excel-table thead tr:nth-child(2) th {
+  top: 30px;
+  font-size: 0.6rem;
+  background: linear-gradient(180deg, #22336f 0%, #1b2b60 100%);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* freeze No & Nama header cells horizontally to match body */
+.excel-table thead tr:first-child th:nth-child(1) {
+  z-index: 4;
+}
+.excel-table thead tr:first-child th:nth-child(2) {
+  z-index: 4;
+}
+
+.excel-table .day-col {
+  width: 30px;
+  min-width: 30px;
+}
+
+.person-row-group:nth-child(even) {
+  background: #fbfbfa;
+}
+
+.person-row-group:hover td {
+  background: #f0f3ff;
+}
+
+.excel-table .num-cell {
+  font-weight: 800;
+  color: var(--ink);
+  background: #fff;
+}
+
+.excel-table .name-cell {
+  text-align: left;
+  font-weight: 800;
+  color: var(--ink);
+  background: #fff;
+}
+
+.excel-table .pos-cell {
+  text-align: left;
+}
+
+.excel-table .pos-cell span {
+  display: block;
+  font-weight: 700;
+}
+
+.excel-table .pos-cell small {
+  color: var(--muted);
+  font-size: 0.6rem;
+}
+
+.excel-table .waktu-cell {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  background: #f3f1ed;
+  color: var(--ink);
+}
+
+.excel-table .lembur-waktu {
+  color: var(--red);
+}
+
+.excel-table .mark-cell {
+  color: var(--blue);
+  font-weight: 800;
+  font-size: 0.86rem;
+  line-height: 1;
+}
+
+.excel-table .lembur-mark {
+  color: var(--red);
+  font-weight: 800;
+  font-size: 0.72rem;
+}
+
+.excel-table .stat-cell {
+  font-weight: 800;
+  background: #fdfdfb;
+}
+
+.excel-table .money-col {
+  text-align: right;
+  font-family: inherit;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* Merged columns (No/Nama/Jabatan + totals): visually one cell across the
+   3 shift rows. Content lives on the middle (Sore) row so it reads centered.
+   Rowspan is intentionally avoided — it renders incorrectly with this
+   sticky-header + wide matrix layout in Chromium. */
+.excel-table .merge-cell {
+  vertical-align: middle;
+}
+.person-row-group tr:nth-child(1) .merge-cell,
+.person-row-group tr:nth-child(2) .merge-cell {
+  border-bottom-color: transparent;
+}
+
+.excel-table .total-pay-col {
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  background: #eef1ff;
+  border-left: 1px solid #d5ddff;
+}
+
+/* Tombol Pengawas Dual */
+.button-action-group {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+}
+
+.button-action-group .primary-button {
+  margin-top: 0;
+}
+
+.send-admin-button {
+  background: var(--red);
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  min-height: 47px;
+  padding: 0 18px;
+  transition: background 160ms ease;
+}
+
+.send-admin-button:hover {
+  background: #cf1b23;
+}

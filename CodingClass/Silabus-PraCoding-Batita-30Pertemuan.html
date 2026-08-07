@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Silabus Pra-Coding Anak Usia Dini (1–3 Tahun) — 30 Pertemuan @ 2 Jam</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color:#1f2937; font-size:11px; line-height:1.5; margin:0; }
+  h1 { font-size:22px; color:#0f766e; margin:0 0 4px; }
+  h2 { font-size:15px; color:#fff; background:#0f766e; padding:6px 10px; border-radius:6px; margin:22px 0 10px; }
+  h3 { font-size:12.5px; margin:16px 0 6px; padding:5px 8px; border-radius:5px; }
+  .subtitle { color:#475569; font-size:12px; margin:0 0 2px; }
+  .cover { border:2px solid #0f766e; border-radius:12px; padding:22px 20px; background:linear-gradient(135deg,#f0fdfa,#ecfeff); margin-bottom:8px; }
+  .cover .badge { display:inline-block; background:#0f766e; color:#fff; font-size:10px; padding:3px 10px; border-radius:20px; margin-bottom:8px; letter-spacing:.5px; }
+  .meta { margin-top:10px; font-size:11px; color:#334155; }
+  .meta b { color:#0f766e; }
+  table { width:100%; border-collapse:collapse; margin:8px 0; font-size:10px; }
+  th, td { border:1px solid #cbd5e1; padding:5px 7px; text-align:left; vertical-align:top; }
+  th { background:#ccfbf1; color:#134e4a; font-weight:600; }
+  tr:nth-child(even) td { background:#f8fafc; }
+  .note { border-left:4px solid #f59e0b; background:#fffbeb; padding:10px 14px; border-radius:0 8px 8px 0; margin:10px 0; }
+  .note ol { margin:6px 0 0; padding-left:18px; } .note li { margin-bottom:6px; }
+  ul.tight { margin:4px 0; padding-left:18px; }
+  .phase1 { background:#dcfce7; color:#166534; } .phase2 { background:#dbeafe; color:#1e40af; }
+  .phase3 { background:#fef9c3; color:#854d0e; } .phase4 { background:#ffedd5; color:#9a3412; }
+  .phase5 { background:#f3e8ff; color:#6b21a8; } .phase6 { background:#fee2e2; color:#991b1b; }
+  .src { font-size:9.5px; color:#475569; } .src li { margin-bottom:3px; }
+  .footer { margin-top:18px; font-size:9.5px; color:#64748b; text-align:center; border-top:1px solid #e2e8f0; padding-top:8px; }
+  .col2 { column-count:2; column-gap:18px; }
+  .avoid-break { break-inside:avoid; }
+  .page-break { break-before:page; }
+  .disc { font-size:9px; color:#94a3b8; margin-top:6px; }
+  table.rp { margin:8px 0 14px; }
+  table.rp td { font-size:10px; }
+  .rpno { width:5%; text-align:center; background:#f1f5f9; font-weight:600; color:#0f766e; }
+  .rplabel { width:26%; background:#f8fafc; font-weight:600; color:#334155; }
+  .tag { display:inline-block; font-size:8.5px; background:#e0f2fe; color:#075985; padding:1px 6px; border-radius:10px; }
+  table.det { margin:4px 0 16px; }
+  table.det td { font-size:9.5px; }
+  .det th { background:#e0f2fe; color:#075985; }
+  .detseg { width:22%; background:#f8fafc; font-weight:600; color:#0f766e; }
+  .detcap { font-size:10px; font-weight:600; color:#0f766e; margin:6px 0 2px; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <span class="badge">SILABUS PELATIHAN</span>
+  <h1>Pengenalan Pra-Coding untuk Anak Usia Dini (1–3 Tahun)</h1>
+  <p class="subtitle"><b>Tema:</b> Belajar Berpikir Seperti Komputer Lewat Bermain (Pra-Coding &amp; Computational Thinking)</p>
+  <div class="meta">
+    <b>Sasaran:</b> Anak usia 1–3 tahun (batita), didampingi orang tua/guru &nbsp;•&nbsp;
+    <b>Durasi:</b> 30 pertemuan @ <b>2 jam (120 menit)</b> &nbsp;•&nbsp;
+    <b>Metode:</b> Unplugged (utama) + Plugged (pendukung, singkat) &nbsp;•&nbsp;
+    <b>Sertifikat:</b> Certificate of Participation
+  </div>
+  <p class="disc">Terinspirasi dari format “Silabus Pelatihan Pengenalan Coding” Digital Talent Scholarship – Kementerian Kominfo RI, diadaptasi untuk anak usia dini dan diselaraskan dengan riset pendidikan anak usia dini (lihat Referensi).</p>
+</div>
+
+<h2>⭐ Catatan Penting (Wajib Dibaca Guru &amp; Orang Tua)</h2>
+<div class="note">
+  <ol>
+    <li><b>Anak batita belum bisa membaca &amp; menulis.</b> Semua materi lewat <b>bermain, lagu, gambar, warna, dan gerakan</b> — bukan teks/kode. Yang diajarkan adalah <b>dasar berpikir coding</b> (urutan, pola, sebab-akibat), bukan bahasa pemrograman.</li>
+    <li><b>Durasi 2 jam diisi banyak segmen pendek.</b> Fokus batita hanya 10–20 menit sekali main, maka satu pertemuan 120 menit dibagi menjadi: sapaan, beberapa sesi bermain singkat, <b>snack</b>, <b>bermain bebas</b>, dan <b>istirahat</b> — bukan duduk fokus 2 jam.</li>
+    <li><b>Batasi waktu layar (screen time)</b> sesuai WHO/AAP: usia <b>1–2 th sebaiknya tanpa layar</b>; usia <b>2–3 th maksimal 5–15 menit</b> per pertemuan &amp; <b>selalu didampingi</b>. Mayoritas kegiatan (±70%) tetap <b>unplugged</b>.</li>
+    <li><b>Gunakan bahasa yang sangat sederhana</b> &amp; diulang-ulang dengan nada ceria: “Ayo urutkan!”, “Mana yang sama?”, “Merah dulu, baru biru.”</li>
+    <li><b>Keamanan nomor satu.</b> Mainan harus <b>besar</b> (anti tertelan); selalu ada orang dewasa; perangkat dijauhkan dari mulut &amp; air.</li>
+    <li><b>Penilaian lewat pengamatan, bukan ujian</b> (😊 senang &amp; ikut · 😐 kadang ikut · 🙁 belum mau).</li>
+    <li><b>Peran orang dewasa = “robot yang dijalankan anak”</b> untuk mengenalkan konsep perintah/urutan.</li>
+    <li><b>“Salah itu boleh” (debugging sederhana):</b> ajarkan “Oops, coba lagi ya!” agar anak berani memperbaiki tanpa takut salah.</li>
+  </ol>
+</div>
+
+<h2>Informasi Pelatihan &amp; Sertifikat</h2>
+<table>
+  <tr><th style="width:32%">Item</th><th>Keterangan</th></tr>
+  <tr><td>Tema Pelatihan</td><td>Pengenalan Pra-Coding untuk Anak Usia Dini (1–3 Tahun)</td></tr>
+  <tr><td>Sertifikat</td><td>Certificate of Participation</td></tr>
+  <tr><td>Durasi</td><td>30 pertemuan @ 2 jam (120 menit) — total 60 jam</td></tr>
+  <tr><td>Metode</td><td>Unplugged (utama) + Plugged (pendukung, singkat)</td></tr>
+  <tr><td>Kapasitas Kelas</td><td>5–8 anak/kelas (masing-masing 1 pendamping dewasa)</td></tr>
+  <tr><td>Alat Utama</td><td>Balok besar, kartu warna/gambar, boneka, mainan sortir; (opsional) robot mainan Bee-Bot/Cubetto/Code-a-pillar, tablet ScratchJr</td></tr>
+</table>
+
+<h3 class="phase1">Deskripsi Pelatihan</h3>
+<p>Program bermain yang mengenalkan <b>dasar berpikir komputer</b> kepada anak usia dini melalui permainan sederhana. Anak belajar konsep <b>urutan (sequence)</b>, <b>pola (pattern)</b>, <b>sebab-akibat (cause &amp; effect)</b>, <b>mencocokkan (matching)</b>, <b>memilah (sorting)</b>, serta <b>memperbaiki kesalahan (debugging sederhana)</b> — semuanya lewat bermain. Pendekatan ini sejalan dengan riset pendidikan anak usia dini yang menunjukkan aktivitas <i>unplugged</i> paling efektif menumbuhkan <i>computational thinking</i> pada usia prasekolah.</p>
+
+<div class="col2">
+  <div class="avoid-break">
+    <h3 class="phase2">Persyaratan &amp; Sarana</h3>
+    <p><b>Peserta:</b> anak usia 1–3 tahun, didampingi 1 orang tua/pengasuh sepanjang kegiatan.</p>
+    <p><b>Sarana Unplugged:</b> balok besar warna-warni, kartu gambar/warna besar, boneka/mainan, keranjang sortir, matras/karpet, stiker.</p>
+    <p><b>Sarana Plugged (opsional, 2–3 th):</b> robot mainan (Bee-Bot/Cubetto/Code-a-pillar) atau tablet dengan aplikasi sederhana (mis. ScratchJr), tombol besar, volume aman.</p>
+  </div>
+  <div class="avoid-break">
+    <h3 class="phase2">Sistem Penilaian (Berbasis Pengamatan)</h3>
+    <p>Tidak ada tes. Guru mengisi lembar pengamatan dengan simbol 😊/😐/🙁. Yang diamati:</p>
+    <ul class="tight">
+      <li><b>Partisipasi</b> — mau ikut bermain</li>
+      <li><b>Meniru</b> — meniru urutan/gerakan guru</li>
+      <li><b>Pengenalan</b> — mengenali warna/bentuk/suara</li>
+      <li><b>Sebab-akibat</b> — paham “tekan → terjadi sesuatu”</li>
+      <li><b>Emosi</b> — terlihat senang/nyaman</li>
+    </ul>
+  </div>
+</div>
+
+<div class="page-break"></div>
+<h2>Struktur 30 Pertemuan (Ringkasan)</h2>
+<p>Program dibagi menjadi <b>6 tahap</b> × <b>5 pertemuan</b>. Setiap pertemuan berdurasi <b>2 jam</b>.</p>
+
+<h3 class="phase1">🟢 Tahap 1 — Mengenal & Merasa Senang (Pertemuan 1–5) · Konsep: sebab-akibat dasar</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>1</td><td>Halo, Teman!</td><td>“Ayo kenalan dan bermain!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>2</td><td>Warna-Warni</td><td>“Ini warna merah!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>3</td><td>Tekan, Ada Bunyi!</td><td>“Tekan → bunyi!”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+<tr><td>4</td><td>Besar dan Kecil</td><td>“Mana yang besar?”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>5</td><td>Bermain Bebas</td><td>“Ayo main sesuka hati!”</td><td>Unplugged</td><td>2 jam</td></tr>
+
+</table>
+
+<h3 class="phase2">🔵 Tahap 2 — Mencocokkan & Memilah (Pertemuan 6–10) · Konsep: matching & sorting</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>6</td><td>Mana yang Sama?</td><td>“Cari yang sama!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>7</td><td>Masukkan Warnanya</td><td>“Merah ke keranjang merah.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>8</td><td>Pasangan Bentuk</td><td>“Bulat sama bulat!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>9</td><td>Ketuk yang Sama</td><td>“Sentuh gambar yang sama.”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+<tr><td>10</td><td>Bermain Memilah</td><td>“Kita pisahkan mainan.”</td><td>Unplugged</td><td>2 jam</td></tr>
+
+</table>
+
+<h3 class="phase3">🟡 Tahap 3 — Urutan Sederhana (Pertemuan 11–15) · Konsep: sequence / algoritma</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>11</td><td>Dulu, Lalu</td><td>“Dulu ini, lalu itu.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>12</td><td>Robot Mama/Papa</td><td>“Ayo suruh Mama maju!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>13</td><td>Susun Balok</td><td>“Bawah dulu, baru atas.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>14</td><td>Langkah Kaki</td><td>“Satu, dua, lompat!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>15</td><td>Urutan Warna</td><td>“Merah dulu, baru biru.”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+
+</table>
+
+<h3 class="phase4">🟠 Tahap 4 — Pola (Pertemuan 16–20) · Konsep: pattern / perulangan (loop)</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>16</td><td>Merah-Biru-Merah</td><td>“Lanjutkan polanya!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>17</td><td>Tepuk-Tepuk</td><td>“Tepuk, tepuk, injak!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>18</td><td>Pola Bunyi</td><td>“Dengar, lalu ulangi.”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+<tr><td>19</td><td>Kalung Manik Besar</td><td>“Susun bergantian.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>20</td><td>Pesta Pola</td><td>“Kita buat pola sendiri!”</td><td>Unplugged</td><td>2 jam</td></tr>
+
+</table>
+
+<h3 class="phase5">🟣 Tahap 5 — Sebab-Akibat & Perintah (Pertemuan 21–25) · Konsep: input/output & kondisi</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>21</td><td>Tekan → Terjadi</td><td>“Tekan, lampu menyala!”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+<tr><td>22</td><td>Kalau Aku Tepuk</td><td>“Aku tepuk, kamu lompat.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>23</td><td>Peta Karpet</td><td>“Jalan ke gambar apel.”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>24</td><td>Suruh si Boneka</td><td>“Boneka, ambil bola!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>25</td><td>Tombol Ajaib</td><td>“Tombol ini bikin apa, ya?”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+
+</table>
+
+<h3 class="phase6">🔴 Tahap 6 — Bermain Bersama & Perayaan (Pertemuan 26–30) · Konsep: gabungan + debugging</h3>
+<table>
+  <tr><th style="width:5%">#</th><th style="width:26%">Topik</th><th style="width:37%">Tujuan (Bahasa Sederhana)</th><th style="width:20%">Jenis</th><th style="width:12%">Durasi</th></tr>
+  <tr><td>26</td><td>Petualangan Warna</td><td>“Cari & susun warna!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>27</td><td>Jalan si Robot</td><td>“Maju, belok, sampai!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>28</td><td>Layar Ceria</td><td>“Main game warna, yuk.”</td><td>Plugged (2–3 th)</td><td>2 jam</td></tr>
+<tr><td>29</td><td>Bermain Bersama</td><td>“Kita main sama teman!”</td><td>Unplugged</td><td>2 jam</td></tr>
+<tr><td>30</td><td>Pesta Wisuda Kecil</td><td>“Hore, kita hebat!”</td><td>Unplugged</td><td>2 jam</td></tr>
+
+</table>
+
+
+<h2>Susunan Waktu Satu Pertemuan (2 Jam / 120 Menit)</h2>
+<table>
+  <tr><th style="width:60%">Kegiatan</th><th style="width:20%">Waktu</th><th style="width:20%">Sifat</th></tr>
+  <tr><td>1. Penyambutan &amp; lagu pembuka</td><td>15 menit</td><td>Unplugged</td></tr>
+  <tr><td>2. Pemanasan gerak / menari</td><td>10 menit</td><td>Unplugged</td></tr>
+  <tr><td>3. Bermain inti (materi hari itu) — sesi 1</td><td>20 menit</td><td>Sesuai topik</td></tr>
+  <tr><td>4. Snack &amp; minum</td><td>15 menit</td><td>Istirahat</td></tr>
+  <tr><td>5. Bermain bebas terarah</td><td>20 menit</td><td>Unplugged</td></tr>
+  <tr><td>6. Pengulangan materi — sesi 2</td><td>15 menit</td><td>Sesuai topik</td></tr>
+  <tr><td>7. Istirahat gerak / relaksasi</td><td>10 menit</td><td>Unplugged</td></tr>
+  <tr><td>8. Penutup: pujian, stiker, lagu penutup</td><td>15 menit</td><td>Unplugged</td></tr>
+  <tr><td><b>Total</b></td><td><b>120 menit</b></td><td></td></tr>
+</table>
+<p><b>Rasio umum:</b> Bermain (praktik) 90% — Penjelasan 10%. Bagian layar (plugged) maksimal 5–15 menit di dalam blok 2 jam, selalu didampingi.</p>
+
+<div class="page-break"></div>
+<h2>Rencana Pembelajaran per Pertemuan (30 Pertemuan)</h2>
+<p class="disc">Format mengikuti contoh Silabus DTS Kominfo — setiap pertemuan dirinci dalam 10 poin.</p>
+<h3 class="phase1">🟢 Tahap 1 — Mengenal & Merasa Senang (Pertemuan 1–5) · Konsep: sebab-akibat dasar</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-1 (Tahap 1)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Halo, Teman!</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak dikenalkan suasana kelas dan teman baru lewat lagu sapaan dan bermain balok bebas. Tujuannya membangun rasa nyaman dan senang sebelum mulai belajar.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Ayo kenalan dan bermain!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Balok besar, alat musik sederhana, kartu lagu; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyanyikan lagu sapaan bersama orang tua di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-1</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memperkenalkan diri &amp; maskot “Robi si Robot”, menyebut nama tiap anak sambil bernyanyi “Di mana …?”</td><td>Menyebut/mengangkat tangan saat namanya dipanggil, menyalami Robi.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Menuang balok besar, mengajak membangun “menara persahabatan” bersama.</td><td>Mengambil &amp; menumpuk balok bebas bersama teman.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengajak menyebut nama teman di sebelah lalu tos.</td><td>Menyebut nama teman &amp; bertos.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-2 (Tahap 1)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Warna-Warni</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal nama warna dasar (merah, kuning, biru) dengan menunjuk dan menyebut warna benda di sekitarnya.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Ini warna merah!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Kartu warna besar, balok warna; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menunjuk warna benda kesukaan di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-2</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan kartu warna satu per satu, menyebut lantang “MERAH!”, mengajak menirukan.</td><td>Melihat kartu, menirukan menyebut nama warna.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Ambil Warna”: menyebut satu warna, anak mengambil balok warna itu, lalu memuji.</td><td>Mencari &amp; mengangkat balok sesuai warna yang disebut.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menempel kartu warna di dinding, meminta anak menunjuk/berlari ke warna yang disebut.</td><td>Menunjuk/berlari ke warna yang benar.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-3 (Tahap 1)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Tekan, Ada Bunyi!</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal sebab-akibat: satu aksi (menekan) menghasilkan satu hasil (bunyi/nyala). Ini fondasi konsep input–output dalam coding.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Tekan → bunyi!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan tombol/aplikasi tombol besar berbunyi; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menekan bel/saklar lampu bersama orang tua (didampingi).</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-3</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan mainan tombol, menekan → “DING!”, menjelaskan “aku tekan, ada bunyi”.</td><td>Mengamati &amp; mendengarkan bunyi.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Bergiliran memberi tiap anak menekan tombol (mainan/aplikasi), memuji tiap bunyi. Layar maks 10–15 menit.</td><td>Menekan tombol, mendengar bunyi/melihat lampu menyala.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menyembunyikan tombol lalu bertanya “mana yang bikin bunyi?”</td><td>Mencari &amp; menekan tombol lagi.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-4 (Tahap 1)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Besar dan Kecil</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal konsep ukuran (besar dan kecil) sebagai dasar membandingkan benda.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Mana yang besar?”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Bola besar & kecil, balok; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Mencari benda besar dan kecil di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-4</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memegang bola besar &amp; kecil, “ini BESAR, ini kecil”, gerak tangan lebar/sempit.</td><td>Menirukan gerak &amp; kata ‘besar’/‘kecil’.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Masukkan Bola”: bola besar ke keranjang besar, kecil ke keranjang kecil; mencontohkan.</td><td>Memasukkan bola ke keranjang sesuai ukuran.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Meminta anak mencari benda besar/kecil di kelas.</td><td>Berkeliling mengambil &amp; menunjukkan benda.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-5 (Tahap 1)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Bermain Bebas</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Mengulang dan memperkuat rasa nyaman. Anak bereksplorasi bebas dengan pendampingan sambil dipuji.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Ayo main sesuka hati!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Aneka mainan aman & besar; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain bebas terarah bersama orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-5</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menata pos mainan (balok, boneka, bola), menjelaskan anak boleh memilih.</td><td>Memilih pos main yang disukai.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Berkeliling menemani, bertanya “kamu main apa?”, memuji.</td><td>Bermain bebas di pos pilihan.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengajak beres-beres sambil lagu “Bereskan Mainan”.</td><td>Memasukkan mainan ke kotak (latihan memilah awal).</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+<h3 class="phase2">🔵 Tahap 2 — Mencocokkan & Memilah (Pertemuan 6–10) · Konsep: matching & sorting</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-6 (Tahap 2)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Mana yang Sama?</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal konsep “sama” dengan mencocokkan dua benda/kartu yang identik (matching).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Cari yang sama!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Pasangan kartu warna/gambar; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Mencari dua benda yang sama di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-6</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memegang dua kartu sama &amp; satu beda, menegaskan “ini SAMA!”</td><td>Mengamati, menyebut ‘sama’.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Cari Pasangan”: menyebar kartu, anak mencari dua kartu sama.</td><td>Memasangkan dua kartu yang sama.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Memegang satu benda, minta anak cari benda serupa di kelas.</td><td>Mencari benda yang sama.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-7 (Tahap 2)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Masukkan Warnanya</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak memilah benda berdasarkan warna ke wadah yang sesuai (sorting) — dasar mengelompokkan data.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Merah ke keranjang merah.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Bola warna & keranjang warna; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Memasukkan mainan ke kotak sesuai warna.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-7</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan keranjang merah &amp; biru, memasukkan bola merah ke keranjang merah.</td><td>Mengamati contoh memilah warna.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Rumah Warna”: anak memilah bola ke keranjang sesuai warna, dipandu &amp; dipuji.</td><td>Memilah bola per warna ke keranjang yang benar.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menambah warna ketiga (kuning) sebagai tantangan.</td><td>Memilah tiga warna.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-8 (Tahap 2)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Pasangan Bentuk</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mencocokkan bentuk (bulat, kotak) ke lubang/pasangannya melalui mainan sortir.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Bulat sama bulat!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan sortir bentuk besar; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain puzzle bentuk besar di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-8</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan bentuk bulat &amp; kotak, “bulat masuk lubang bulat”.</td><td>Meraba &amp; mengamati bentuk.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mainan sortir bentuk: membimbing anak memasukkan tiap bentuk ke lubangnya.</td><td>Mencocokkan bentuk ke lubang yang sesuai.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menyembunyikan satu bentuk di kotak, anak meraba menebak.</td><td>Meraba &amp; menyebut bentuk.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-9 (Tahap 2)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Ketuk yang Sama</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Versi digital dari mencocokkan: anak menyentuh gambar yang sama di layar (singkat, didampingi).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Sentuh gambar yang sama.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Tablet dengan aplikasi mencocokkan gambar; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain kartu mencocokkan (ganti layar) di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-9</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan layar dua gambar, mencontohkan menyentuh gambar yang sama.</td><td>Mengamati contoh di layar.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi 1-1 anak bergiliran menyentuh gambar sama di tablet. Layar maks 10–15 menit.</td><td>Menyentuh gambar yang cocok di layar.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mematikan layar, lanjut kartu fisik mencocokkan.</td><td>Memasangkan kartu gambar.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-10 (Tahap 2)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Bermain Memilah</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Mengulang sorting dengan kriteria besar/kecil untuk memperkuat kemampuan mengelompokkan.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Kita pisahkan mainan.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan campur besar & kecil; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Memisahkan sendok besar & kecil bersama orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-10</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menumpahkan mainan campur, “ayo pisahkan besar &amp; kecil”.</td><td>Mengamati aturan memilah.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Dua Kotak”: anak memisahkan mainan besar &amp; kecil ke dua kotak.</td><td>Memilah mainan ke kotak yang benar.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengganti kriteria menjadi warna.</td><td>Memilah ulang berdasarkan warna.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+<h3 class="phase3">🟡 Tahap 3 — Urutan Sederhana (Pertemuan 11–15) · Konsep: sequence / algoritma</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-11 (Tahap 3)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Dulu, Lalu</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal urutan dua langkah (ambil dulu, lalu taruh) — dasar dari sequence/algoritma.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Dulu ini, lalu itu.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan & wadah; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Melakukan urutan “buka keran → basuh tangan” di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-11</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memperagakan “ambil DULU, LALU taruh” pelan sambil menyebut urutan.</td><td>Mengamati urutan dua langkah.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Dua Langkah”: anak mengambil bola lalu memasukkan ke ember; guru menyebut “dulu… lalu…”.</td><td>Melakukan dua langkah berurutan.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menambah kartu urutan (1–2) sebagai panduan.</td><td>Melakukan sesuai urutan kartu.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-12 (Tahap 3)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Robot Mama/Papa</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak memberi perintah “maju/berhenti” kepada orang dewasa, memahami bahwa perintah dijalankan berurutan.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Ayo suruh Mama maju!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Ruang gerak yang aman; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain “robot” bersama orang tua di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-12</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menjadi “robot”, meminta anak berkata “maju”/“berhenti”.</td><td>Mengamati &amp; mencoba memberi aba-aba.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Robot”: anak memerintah guru/orang tua maju–berhenti menuju mainan.</td><td>Memberi perintah berurutan ke ‘robot’.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menambah perintah “belok”.</td><td>Memberi tiga macam perintah.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-13 (Tahap 3)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Susun Balok</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak menyusun menara balok dari bawah ke atas secara berurutan untuk melatih urutan langkah.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Bawah dulu, baru atas.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Balok besar; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyusun 3 balok atau gelas plastik.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-13</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menyusun balok “bawah dulu, baru atas” sambil menyebut urutan.</td><td>Mengamati cara menyusun.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Membimbing anak menyusun menara; menyemangati saat roboh (“coba lagi”).</td><td>Menumpuk balok menjadi menara.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Meminta susun mengikuti urutan warna (merah bawah, biru atas).</td><td>Menyusun balok berurutan sesuai warna.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-14 (Tahap 3)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Langkah Kaki</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak berjalan mengikuti kartu langkah (satu, dua, lompat) untuk mengenal urutan gerak.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Satu, dua, lompat!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Kartu langkah / tapak kaki di lantai; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain lompat mengikuti aba-aba orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-14</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menaruh kartu tapak kaki di lantai, mencontohkan melangkah.</td><td>Mengamati rute tapak kaki.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Jejak Kaki”: anak berjalan menginjak tapak sesuai urutan; guru menghitung “satu, dua, lompat!”.</td><td>Melangkah mengikuti urutan tapak.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengubah urutan tapak kaki.</td><td>Mengikuti urutan baru.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-15 (Tahap 3)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Urutan Warna</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak menekan warna sesuai urutan yang dicontohkan pada robot/aplikasi (singkat, didampingi).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Merah dulu, baru biru.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Robot mainan / aplikasi urutan warna; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Mengurutkan dua balok warna di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-15</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Mencontohkan menekan warna berurutan di robot/aplikasi (merah lalu biru).</td><td>Mengamati contoh urutan.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi anak menekan warna sesuai urutan contoh. Layar maks 10–15 menit.</td><td>Menekan warna secara berurutan.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Lanjut versi fisik: mengurutkan dua balok warna.</td><td>Menyusun balok berurutan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+<h3 class="phase4">🟠 Tahap 4 — Pola (Pertemuan 16–20) · Konsep: pattern / perulangan (loop)</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-16 (Tahap 4)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Merah-Biru-Merah</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal pola berulang sederhana (AB), yaitu dasar dari konsep perulangan (loop).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Lanjutkan polanya!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Balok dua warna; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyusun pola sendok–garpu / dua benda bergantian.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-16</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menyusun “merah, biru, merah, biru…” sambil menunjuk &amp; menyebut.</td><td>Mengamati pola AB.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Lanjutkan”: guru mulai pola, anak menaruh balok berikutnya.</td><td>Melanjutkan pola merah-biru.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Membuat pola baru (kuning-hijau).</td><td>Melanjutkan pola baru.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-17 (Tahap 4)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Tepuk-Tepuk</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak meniru pola gerak dan bunyi (tepuk, tepuk, injak) untuk merasakan pola secara fisik.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Tepuk, tepuk, injak!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Gerak tubuh, musik; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menirukan pola tepukan yang dibuat orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-17</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memperagakan pola “tepuk, tepuk, injak” berulang.</td><td>Mengamati &amp; mendengar pola.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mengajak menirukan pola gerak-bunyi bersama, makin cepat.</td><td>Menirukan pola tepuk-injak.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Meminta anak membuat pola tepukan sendiri.</td><td>Menciptakan pola; teman menirukan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-18 (Tahap 4)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Pola Bunyi</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mendengar lalu mengulang pola suara sederhana melalui aplikasi (singkat, didampingi).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Dengar, lalu ulangi.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Aplikasi pola suara; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyanyikan pola nada sederhana di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-18</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memutar pola bunyi sederhana di aplikasi, “dengar ya”.</td><td>Mendengarkan pola bunyi.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi anak menekan tombol mengulang pola bunyi. Layar maks 10–15 menit.</td><td>Mengulang pola bunyi di layar.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Lanjut menyanyi pola nada tanpa layar.</td><td>Menyanyikan pola nada.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-19 (Tahap 4)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Kalung Manik Besar</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak meronce manik besar dengan pola warna bergantian untuk memperkuat pemahaman pola.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Susun bergantian.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Manik besar & tali tebal (aman); kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyusun benda bergantian (mis. batu–daun).</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-19</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Meronce manik “merah, kuning, merah, kuning” di depan anak.</td><td>Mengamati pola roncean.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Membantu memegang tali; anak meronce manik besar berpola.</td><td>Memasukkan manik bergantian sesuai pola.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menantang pola tiga warna.</td><td>Meronce pola lebih panjang.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-20 (Tahap 4)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Pesta Pola</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak membuat pola sendiri secara bebas dari benda yang tersedia, melatih kreativitas berpola.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Kita buat pola sendiri!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Aneka benda untuk pola; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Membuat pola dari mainan bersama orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-20</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memamerkan beberapa contoh pola dari benda.</td><td>Memilih benda untuk berpola.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Berkeliling memuji &amp; menyebut pola buatan anak.</td><td>Menyusun pola bebas sendiri.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengajak “pawai pola”, tiap anak menunjukkan polanya.</td><td>Memperlihatkan &amp; menyebut polanya.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+<h3 class="phase5">🟣 Tahap 5 — Sebab-Akibat & Perintah (Pertemuan 21–25) · Konsep: input/output & kondisi</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-21 (Tahap 5)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Tekan → Terjadi</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Memperdalam sebab-akibat digital: satu tindakan memicu satu reaksi (input → output).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Tekan, lampu menyala!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan/aplikasi sebab-akibat; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menekan saklar lampu dan mengamati hasilnya (didampingi).</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-21</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menekan tombol → lampu menyala, “aku tekan, lampu nyala”.</td><td>Mengamati sebab-akibat.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi anak menekan tombol &amp; melihat akibat (nyala/bunyi/gerak). Layar maks 10–15 menit.</td><td>Menekan &amp; mengamati akibatnya.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Bertanya “kalau tidak ditekan?” untuk menegaskan sebab-akibat.</td><td>Mencoba menekan/tidak &amp; membandingkan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-22 (Tahap 5)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Kalau Aku Tepuk</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak mengenal konsep kondisi sederhana “kalau… maka…”, dasar dari if-statement.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Aku tepuk, kamu lompat.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Gerak tubuh, isyarat; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain “kalau Mama panggil, kita datang”.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-22</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>“KALAU aku tepuk, kamu lompat”, mencontohkan sekali.</td><td>Mengamati aturan ‘kalau-maka’.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Permainan “Kalau-Maka”: guru tepuk → anak lompat; guru diam → anak diam.</td><td>Bereaksi sesuai kondisi/aturan.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Menambah aturan (angkat tangan → jongkok).</td><td>Mengikuti dua aturan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-23 (Tahap 5)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Peta Karpet</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak berjalan menuju tujuan mengikuti arah/petunjuk — bentuk sederhana dari algoritma jalan.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Jalan ke gambar apel.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Karpet / kartu gambar arah; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Berjalan ke dapur mengikuti petunjuk orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-23</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjuk gambar tujuan (apel) di karpet, “kita jalan ke apel”.</td><td>Melihat rute tujuan.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Memandu anak berjalan mengikuti kartu arah menuju tujuan.</td><td>Berjalan mengikuti petunjuk arah.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengganti tujuan (pisang).</td><td>Berjalan ke tujuan baru.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-24 (Tahap 5)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Suruh si Boneka</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak memberi perintah kepada boneka/robot mainan untuk mengambil benda tertentu.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Boneka, ambil bola!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Boneka / robot mainan; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyuruh boneka “tidur” atau “makan” di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-24</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Memegang boneka, mencontohkan “boneka, ambil bola” lalu menggerakkannya.</td><td>Mengamati perintah ke boneka.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Menggerakkan boneka/robot sesuai perintah anak untuk mengambil benda.</td><td>Memberi perintah ke boneka/robot.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Meminta perintah dua langkah (“ambil bola, taruh di kotak”).</td><td>Memberi perintah berurutan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-25 (Tahap 5)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Tombol Ajaib</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak bereksplorasi menebak apa yang terjadi saat menekan tombol berbeda (singkat, didampingi).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Tombol ini bikin apa, ya?”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Aplikasi tombol sederhana; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Mengamati tombol remote bersama orang tua (didampingi).</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-25</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menunjukkan beberapa tombol berbeda, “ayo tebak, ini bikin apa?”</td><td>Mengamati tombol-tombol.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi anak menekan tombol berbeda &amp; menamai hasilnya. Layar maks 10–15 menit.</td><td>Mencoba menekan &amp; menebak hasil.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Lanjut tanpa layar: menebak bunyi alat musik.</td><td>Menebak sumber bunyi.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+<h3 class="phase6">🔴 Tahap 6 — Bermain Bersama & Perayaan (Pertemuan 26–30) · Konsep: gabungan + debugging</h3>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-26 (Tahap 6)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Petualangan Warna</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak menggabungkan kemampuan mencocokkan dan berpola dalam satu permainan menyenangkan.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Cari & susun warna!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Kartu & balok warna; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Menyusun warna favorit bersama orang tua.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-26</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menyiapkan pos “cari warna” lalu “susun pola”.</td><td>Mengamati alur permainan.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Memandu tiap pos: anak mencari kartu warna lalu menyusunnya jadi pola.</td><td>Mencari warna &amp; menyusun pola (gabungan).</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Meminta anak menyebut warna &amp; pola buatannya.</td><td>Menceritakan hasil karyanya.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-27 (Tahap 6)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Jalan si Robot</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak memandu “robot” menuju tujuan; bila salah arah, diajak “oops, coba lagi” — pengenalan debugging.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Maju, belok, sampai!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Karpet/rute, kartu arah; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain rute menuju kamar di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-27</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menata rute, “kita antar robot ke rumah: maju, belok”.</td><td>Melihat rute robot.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Anak memandu ‘robot’ ke tujuan; bila salah arah guru berkata “Oops, coba lagi ya!”</td><td>Memberi &amp; memperbaiki perintah (debugging sederhana).</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Membuat rute sedikit berbeda.</td><td>Memandu ulang &amp; memperbaiki.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-28 (Tahap 6)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Layar Ceria</b> &nbsp;<span class="tag">Plugged (2–3 th)</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Permainan digital ringan yang menggabungkan warna, pola, dan sebab-akibat (singkat, didampingi).</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Main game warna, yuk.”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Aplikasi ringan gabungan; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Istirahat dari layar di rumah, ganti bermain fisik.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-28</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Membuka aplikasi gabungan (warna+pola+sebab-akibat), mencontohkan.</td><td>Mengamati contoh di layar.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Mendampingi 1-1 anak bermain game ringan menerapkan konsep. Layar maks 10–15 menit.</td><td>Bermain terarah di layar.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mematikan layar, mengajak gerak/bernyanyi.</td><td>Bergerak &amp; bernyanyi.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-29 (Tahap 6)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Bermain Bersama</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Anak bermain dalam kelompok kecil, belajar berbagi dan bergiliran sambil menerapkan konsep yang dipelajari.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Kita main sama teman!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Mainan bersama; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Bermain dengan saudara/teman di rumah.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-29</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Membagi kelompok kecil, menjelaskan “main bergiliran &amp; berbagi”.</td><td>Duduk berkelompok.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>Memfasilitasi giliran saat kelompok menyusun pola/menara bersama.</td><td>Bermain bersama, berbagi &amp; bergiliran.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Mengajak tos &amp; memuji kerja sama.</td><td>Bertos &amp; menyebut nama teman.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+<table class="rp avoid-break">
+  <tr><td class="rpno">1</td><td class="rplabel">Pertemuan</td><td>Pertemuan ke-30 (Tahap 6)</td></tr>
+  <tr><td class="rpno">2</td><td class="rplabel">Topik</td><td><b>Pesta Wisuda Kecil</b> &nbsp;<span class="tag">Unplugged</span></td></tr>
+  <tr><td class="rpno">3</td><td class="rplabel">Deskripsi topik</td><td>Perayaan penutup: mengulang lagu-lagu, pemberian stiker dan sertifikat sebagai apresiasi.</td></tr>
+  <tr><td class="rpno">4</td><td class="rplabel">Durasi</td><td>2 Jam (120 menit)</td></tr>
+  <tr><td class="rpno">5</td><td class="rplabel">Rasio Praktik &amp; Teori</td><td>Praktik 90% · Teori 10%</td></tr>
+  <tr><td class="rpno">6</td><td class="rplabel">Aktivitas kelas</td><td>Lagu &amp; sapaan · Pemanasan gerak · Bermain inti (“Hore, kita hebat!”) · Bermain bebas · Pengulangan · Penutup</td></tr>
+  <tr><td class="rpno">7</td><td class="rplabel">Alat bantu/media</td><td>Sertifikat, stiker, dekorasi; kartu lagu; stiker</td></tr>
+  <tr><td class="rpno">8</td><td class="rplabel">Bahan bacaan/persiapan guru</td><td>Modul Bermain · Kartu Lagu · Video Konsep (untuk guru)</td></tr>
+  <tr><td class="rpno">9</td><td class="rplabel">Persiapan peserta</td><td>Sudah makan &amp; cukup istirahat, memakai baju nyaman, membawa botol minum</td></tr>
+  <tr><td class="rpno">10</td><td class="rplabel">Tugas (di rumah, bersama orang tua)</td><td>Memajang sertifikat di rumah sebagai kenang-kenangan.</td></tr>
+</table>
+
+<div class='detcap'>Rincian Kegiatan Pertemuan ke-30</div>
+<table class='det avoid-break'>
+  <tr><th style='width:22%'>Segmen (2 jam)</th><th style='width:39%'>Kegiatan Guru (penyampaian &amp; permainan)</th><th style='width:39%'>Kegiatan Anak</th></tr>
+  <tr><td class='detseg'>1. Pembukaan (15’)</td><td>Menyambut anak di pintu, mengajak duduk melingkar, menyanyikan lagu “Selamat Pagi” dan tepuk semangat, menyapa nama tiap anak.</td><td>Duduk melingkar, ikut bernyanyi &amp; bertepuk, mengangkat tangan/menjawab saat namanya dipanggil.</td></tr>
+<tr><td class='detseg'>2. Pemanasan (10’)</td><td>Memimpin gerak lagu “Kepala Pundak Lutut Kaki” untuk pemanasan &amp; fokus.</td><td>Berdiri menirukan gerakan guru sambil bernyanyi.</td></tr>
+<tr><td class='detseg'>3. Penyampaian Materi &amp; Contoh (20’)</td><td>Menghias kelas, mengulang lagu-lagu favorit.</td><td>Ikut bernyanyi gembira.</td></tr>
+<tr><td class='detseg'>4. Snack &amp; Minum (15’)</td><td>Mendampingi cuci tangan, membagikan snack, mengajak berdoa singkat.</td><td>Mencuci tangan, makan snack &amp; minum, beristirahat.</td></tr>
+<tr><td class='detseg'>5. Permainan Inti (20’)</td><td>“Pawai Hebat”: tiap anak menunjukkan satu hal yang dipelajari (warna/pola/perintah).</td><td>Unjuk kebolehan di depan teman.</td></tr>
+<tr><td class='detseg'>6. Pengulangan/Variasi (15’)</td><td>Membagikan sertifikat &amp; stiker, foto bersama.</td><td>Menerima sertifikat &amp; merayakan.</td></tr>
+<tr><td class='detseg'>7. Istirahat Gerak (10’)</td><td>Memimpin peregangan/lagu relaksasi “Tepuk Angin” agar anak tenang.</td><td>Meregangkan badan, menarik napas, menirukan gerak lembut.</td></tr>
+<tr><td class='detseg'>8. Penutup (15’)</td><td>Mengulang kata kunci hari itu, memberi pujian &amp; stiker, menyanyikan lagu penutup, menyampaikan tugas rumah kepada orang tua.</td><td>Menerima stiker, ikut lagu penutup, melambaikan tangan “sampai jumpa”.</td></tr>
+
+</table>
+
+
+<h2>Ringkasan Metode Unplugged vs Plugged</h2>
+<table>
+  <tr><th style="width:20%"></th><th>Unplugged (tanpa komputer)</th><th>Plugged (komputer/tablet/robot)</th></tr>
+  <tr><td>Porsi</td><td>±70% (utama)</td><td>±30% (pendukung)</td></tr>
+  <tr><td>Usia 1–2 th</td><td>✅ Ya</td><td>❌ Sebaiknya tidak</td></tr>
+  <tr><td>Usia 2–3 th</td><td>✅ Ya</td><td>✅ Maks 5–15 menit, didampingi</td></tr>
+  <tr><td>Contoh</td><td>Balok, kartu, boneka, gerakan</td><td>Bee-Bot, Cubetto, Code-a-pillar, ScratchJr</td></tr>
+</table>
+
+<h2>Referensi &amp; Dasar Ilmiah</h2>
+<ul class="src">
+  <li>Zurnacı, B. (2024). <i>Educational robotics or unplugged coding activities in early childhood?</i> — Thinking Skills and Creativity (ScienceDirect). Temuan: aktivitas <b>unplugged coding memberi pemahaman computational thinking tertinggi</b>.</li>
+  <li>Saygıner, Ş. &amp; Tüzün, H. (2025). <i>Investigation of the effects of unplugged coding activities developed for preschool on motivation, computational thinking and problem-solving skills.</i> — Hacettepe University.</li>
+  <li>Chen, Y. L. (2026). <i>Incorporating unplugged computational thinking teaching into preschool theme-based curriculum.</i> — Computers and Children.</li>
+  <li>Bers, M. U. — <i>Coding as a Playground / powerful ideas of coding</i> (DevTech, Tufts).</li>
+  <li>Pedoman waktu layar: <b>WHO</b> (Guidelines for children under 5) &amp; <b>AAP</b>.</li>
+  <li>Alat rujukan ramah usia dini: Bee-Bot, Cubetto, Fisher-Price Code-a-pillar, ScratchJr.</li>
+</ul>
+<p class="disc">Catatan: judul &amp; tahun dikutip dari hasil pencarian daring; harap verifikasi tautan sumber sebelum publikasi resmi.</p>
+
+<div class="footer">
+  Versi Silabus #2 — Anak usia 1–3 tahun · 30 pertemuan @ 2 jam · unplugged &amp; plugged · bahasa sederhana ·
+  Format mengikuti contoh DTS Kominfo RI &amp; diselaraskan riset PAUD.
+</div>
+
+</body>
+</html>

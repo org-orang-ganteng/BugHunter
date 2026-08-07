@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Supervisor {
+  id          String       @id @default(cuid())
+  name        String
+  identityNo  String?
+  phone       String?
+  active      Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  attendances Attendance[]
+}
+
+model Member {
+  id          String       @id @default(cuid())
+  name        String
+  position    String?
+  phone       String?
+  ktpPhoto    String?
+  locationId  String?
+  active      Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  location    WorkLocation? @relation(fields: [locationId], references: [id])
+  attendances Attendance[]
+}
+
+model WorkLocation {
+  id          String       @id @default(cuid())
+  name        String
+  detail      String?
+  active      Boolean      @default(true)
+  createdAt   DateTime     @default(now())
+  members     Member[]
+  attendances Attendance[]
+}
+
+model Attendance {
+  id           String        @id @default(cuid())
+  workDate     DateTime
+  type         String
+  overtimeHour Float?
+  supervisorId String
+  memberId     String
+  locationId   String
+  createdAt    DateTime      @default(now())
+  supervisor   Supervisor    @relation(fields: [supervisorId], references: [id])
+  member       Member        @relation(fields: [memberId], references: [id])
+  location     WorkLocation  @relation(fields: [locationId], references: [id])
+
+  @@unique([workDate, type, memberId, locationId])
+  @@index([workDate])
+  @@index([memberId])
+}

@@ -1,0 +1,105 @@
+/* ============================================================
+   ADMIN DASHBOARD — kanvas diperluas + 3 sektor dibedakan
+   (DASHBOARD REAL-TIME · KELOLA DATA MASTER · REKAP ANGGOTA)
+   ============================================================ */
+
+/* 1 · Perluas area kerja admin agar ruang kosong kiri-kanan berkurang */
+.admin-shell .app-container {
+  max-width: 1760px;
+  padding-top: 40px;
+  padding-left: clamp(18px, 2.6vw, 46px);
+  padding-right: clamp(18px, 2.6vw, 46px);
+}
+.admin-shell .metric-grid { gap: 16px; }
+
+/* 2 · Bungkus sektor "Dashboard Real-time" jadi kartu dengan aksen biru */
+.admin-block {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  padding: clamp(20px, 2.4vw, 30px) clamp(20px, 2.4vw, 30px) clamp(16px, 1.6vw, 20px);
+  margin-bottom: 24px;
+  box-shadow: 0 26px 60px -46px rgba(23, 33, 43, 0.55);
+}
+.admin-block .admin-heading { margin-bottom: 24px; }
+.admin-block .metric-grid { margin-bottom: 4px; }
+
+/* Garis aksen atas — warna berbeda menandai tiap sektor */
+.admin-shell .block-realtime,
+.admin-shell .am-panel.block-master,
+.admin-shell .table-card.block-rekap {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.admin-shell .block-realtime::before,
+.admin-shell .am-panel.block-master::before,
+.admin-shell .table-card.block-rekap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  z-index: 2;
+}
+.admin-shell .block-realtime::before { background: linear-gradient(90deg, #1b2a6b, #3b82f6); }
+.admin-shell .am-panel.block-master::before { background: linear-gradient(90deg, #b9821b, #f2b63d); }
+.admin-shell .table-card.block-rekap::before { background: linear-gradient(90deg, #b81d24, #ef4444); }
+
+/* 3 · Badge kicker berbeda tiap sektor supaya mudah dikenali */
+.admin-shell .section-kicker.kicker-realtime,
+.admin-shell .section-kicker.kicker-master,
+.admin-shell .section-kicker.kicker-rekap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 13px 5px 10px;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+.admin-shell .kicker-realtime { background: rgba(59, 130, 246, 0.12); color: #1b2a6b; }
+.admin-shell .kicker-master { background: rgba(242, 182, 61, 0.2); color: #9c6e19; }
+.admin-shell .kicker-rekap { background: rgba(220, 38, 38, 0.1); color: var(--red); }
+.admin-shell .kicker-realtime::before,
+.admin-shell .kicker-master::before,
+.admin-shell .kicker-rekap::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.admin-shell .kicker-realtime::before { background: #3b82f6; }
+.admin-shell .kicker-master::before { background: #f2b63d; }
+.admin-shell .kicker-rekap::before { background: var(--red); }
+
+/* 4 · Tombol dipercantik (radius lembut, hover naik, bayangan warna) */
+.admin-shell .reset-filter-btn {
+  border-radius: 10px !important;
+  padding: 9px 15px;
+  box-shadow: 0 10px 22px -12px rgba(220, 38, 38, 0.7);
+}
+.admin-shell .reset-filter-btn:hover { transform: translateY(-1px); }
+
+.admin-shell .filter-bar { border-radius: 14px; }
+.admin-shell .filter-select {
+  border-radius: 9px !important;
+  min-height: 38px;
+}
+.admin-shell .search-input { border-radius: 9px; }
+
+.admin-shell .view-toggle { border-radius: 12px; }
+.admin-shell .am-tab.is-active { transform: translateY(-1px); }
+.admin-shell .xlsx-button { border-radius: 11px; }
+
+/* 5 · Metrik mengikuti lebar baru dengan corner lebih halus */
+.admin-shell .metric-card { border-radius: 14px; }
+
+@media (max-width: 900px) {
+  .admin-shell .app-container { max-width: 100%; }
+  .admin-block { padding: 18px 16px 12px; border-radius: 14px; }
+}

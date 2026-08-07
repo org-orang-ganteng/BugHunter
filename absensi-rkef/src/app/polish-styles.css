@@ -1,0 +1,101 @@
+/* Visual Enhancements & Micro-Interactions */
+
+/* Subtle Glassmorphism Card Effect */
+.table-card, .form-card, .activity-card {
+  background: rgba(255, 255, 255, 0.88) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(23, 33, 43, 0.12) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+/* Hover Elevation for Metric Cards */
+.metric-card {
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 220ms ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(40, 60, 145, 0.08);
+}
+
+/* Polished Interactive Buttons */
+.primary-button, .export-button, .send-admin-button, .ghost-button, .reset-filter-btn {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px !important;
+  transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1) !important;
+  font-weight: 800 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.primary-button:active, .export-button:active, .send-admin-button:active, .ghost-button:active {
+  transform: scale(0.98);
+}
+
+/* Button Shimmer Effect on Hover */
+.primary-button::after, .send-admin-button::after, .export-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.25),
+    transparent
+  );
+  transition: left 500ms ease;
+}
+
+.primary-button:hover::after, .send-admin-button:hover::after, .export-button:hover::after {
+  left: 150%;
+}
+
+/* Input Fields Smooth Focus */
+.field-input, .filter-select {
+  border-radius: 6px !important;
+  transition: all 180ms ease !important;
+}
+
+.field-input:focus, .filter-select:focus {
+  border-color: var(--blue) !important;
+  box-shadow: 0 0 0 3px rgba(40, 60, 145, 0.15) !important;
+}
+
+/* Table Hover Row Glow */
+.excel-table tbody tr:hover td {
+  background-color: #f0f3ff !important;
+}
+
+.table-scroll table tbody tr:hover {
+  background-color: #f4f6fe !important;
+}
+
+/* Badge Glow Indicators */
+.local-chip {
+  background: #eef8f1;
+  color: #1e7044;
+  border: 1px solid #bce3cd;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.local-chip i {
+  width: 6px;
+  height: 6px;
+  background: #2cb859;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #2cb859;
+}
